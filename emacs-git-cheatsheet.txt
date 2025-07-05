@@ -7,5 +7,25 @@
 - git add <file>
 - git commit -m "msg"
 - git push
+- del .git\index.lock: when stuck in commit, delete previous action
+
+Pushing changes to a repo
+
+1- be in the repo on the shell
+
+2- git add emacs-git-cheatsheet.txt
+* if stuck, delete previous buffers through: del .git\index.lock
+
+3- git commit -m "Update Emacs cheat sheet"
+
+4- git push origin master
+* If there is no origin destination, do git remote add origin (url of repo)
+
+
+
+
+
 
 This is my new cheatsheet, 7/5/25
+This is a change to my cheatsheet, 7/5/25
+
