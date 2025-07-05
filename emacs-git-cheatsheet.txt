@@ -1,0 +1,9 @@
+* Emacs Commands
+- C-x C-f :: Open file
+- C-x C-s :: Save file
+
+* Git Commands
+- git status
+- git add <file>
+- git commit -m "msg"
+- git push
